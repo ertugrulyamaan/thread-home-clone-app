@@ -1,8 +1,6 @@
 import {useState, useCallback, useContext} from 'react'
 import { StyleSheet, Image,RefreshControl, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { createUser } from '../../utils/data';
-import {View, Text} from '../../components/Themed';
 import { ThreadsContext } from '../../context/threadContext';
 import ThreadsItem from '../../components/ThreadsItem';
 
